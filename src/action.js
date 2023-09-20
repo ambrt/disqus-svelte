@@ -8,7 +8,7 @@ const mountNewDisqus = ({ identifier, url }) => {
 
     const disqus = document.createElement('script');
     disqus.id = 'disqus-app-block';
-    disqus.src = '//discutest.disqus.com/embed.js';
+    disqus.src = 'https://discutest.disqus.com/embed.js';
     disqus.setAttribute('data-timestamp', +new Date());
     (document.head || document.body).appendChild(disqus);
 
